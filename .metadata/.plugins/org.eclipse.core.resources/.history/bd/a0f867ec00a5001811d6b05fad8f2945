@@ -1,0 +1,19 @@
+package com.pratice.innerclass;
+
+public abstract class TestAbstractClass {
+
+	abstract void haunt(String a);
+	
+	abstract void haunt(String a,String b);
+	
+	void hauntMy(String a){
+		
+	};
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

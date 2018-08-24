@@ -1,0 +1,18 @@
+package com.pratice.innerclass;
+
+public abstract class TestAbstractClass {
+
+	abstract void haunt(String a);
+	
+	abstract void haunt(String a,String b);
+	
+	void haunt(Integer a){
+		
+	};
+	
+	
+	public static void main(String[] args) {
+
+	}
+
+}

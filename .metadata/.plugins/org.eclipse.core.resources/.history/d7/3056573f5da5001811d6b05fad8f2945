@@ -1,0 +1,29 @@
+package com.pratice.generic;
+
+public class GenericClass<T> {
+
+	private T t;
+
+	public GenericClass() {
+	}
+
+	public GenericClass(T t) {
+
+		this.t = t;
+	}
+
+	public T getT() {
+		return t;
+	}
+
+	public void setT(T t) {
+		this.t = t;
+	}
+
+	public static void main(String[] args) {
+		GenericClass<String> type = new GenericClass<String>();
+		type.setT("ABC");
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.pratice.collection.employee;
+
+public class SearchEngine {
+
+
+	public static void main(String[] args) {
+	
+		
+	}
+
+}

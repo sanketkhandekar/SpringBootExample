@@ -1,0 +1,9 @@
+package com.pratice.collection.map;
+
+public class EmployeeLogic {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

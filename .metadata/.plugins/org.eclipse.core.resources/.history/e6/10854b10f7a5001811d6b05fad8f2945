@@ -1,0 +1,9 @@
+package com.pratice.collection.employee;
+
+public class EmployeeLogic {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

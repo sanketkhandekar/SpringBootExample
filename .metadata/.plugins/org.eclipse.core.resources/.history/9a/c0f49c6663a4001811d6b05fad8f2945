@@ -1,0 +1,34 @@
+package com.pratice.innerclass;
+
+public class JavaPraticeInnerClass {
+
+	static class TestInnerStatic {
+
+		static int value = 100;
+
+		int no = 300;
+
+		public void testInnerMethod(Integer value, Integer sec) {
+		}
+
+		public void testInnerMethod(Double value, Integer sec) {
+		}
+
+		public void testInnerMethod(Float value, Integer sec) {
+		}
+
+		public void testInnerMethod(Integer sec) {
+		}
+
+		public Integer testInnerMethod(Integer value, Float sec) {
+
+			return null;
+		}
+	}
+
+	public static void main(String[] args) {
+		JavaPraticeInnerClass.TestInnerStatic javaPraticeInnerClass = new JavaPraticeInnerClass.TestInnerStatic();
+		javaPraticeInnerClass.no = 100;
+	}
+
+}

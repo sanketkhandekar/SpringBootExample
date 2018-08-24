@@ -1,0 +1,19 @@
+package com.test;
+
+import java.io.IOException;
+
+public class TestException {
+
+	public static void main(String[] args) {
+		
+		ExceptionBaseClass exceptionBaseClass = new ExceptionBaseClass();
+		
+		try {
+			exceptionBaseClass.testBaseException();
+		} catch (IOException e) {
+			// TODO: handle exception
+		}
+
+	}
+
+}

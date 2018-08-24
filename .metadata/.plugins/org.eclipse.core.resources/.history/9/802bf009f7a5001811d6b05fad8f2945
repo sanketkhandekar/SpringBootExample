@@ -1,0 +1,34 @@
+package com.pratice.collection.map;
+
+public class Employee {
+
+	private Integer id;
+	private String employeeName;
+	private Integer age;
+	private Integer employeeSalary;
+
+	public Employee(Integer id, String employeeName, Integer age, Integer employeeSalary) {
+		super();
+		this.id = id;
+		this.employeeName = employeeName;
+		this.age = age;
+		this.employeeSalary = employeeSalary;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public String getEmployeeName() {
+		return employeeName;
+	}
+
+	public Integer getAge() {
+		return age;
+	}
+
+	public Integer getEmployeeSalary() {
+		return employeeSalary;
+	}
+
+}

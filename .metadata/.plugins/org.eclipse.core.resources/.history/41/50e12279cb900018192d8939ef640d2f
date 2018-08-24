@@ -1,0 +1,16 @@
+package com.test;
+
+import java.io.IOException;
+
+public class ExceptionBaseClass  extends IOException{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	public void test() throws  IOException{
+		System.out.println(" Test IoException ");
+	}
+
+}
